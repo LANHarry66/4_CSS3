@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 400px;
+            height: 400px;
+            background-color: orange;
+            margin: 0 auto;
+            margin-top: 100px;
+            font-size: 40px;
+            /* 第一个参数是水平方向，第二个参数是垂直方向上。 */
+            /* box-shadow: 10px 10px ; */
+
+            /* 三个参数 */
+            /* box-shadow: 10px 10px blue; */
+
+            /* 三个参数 第三个参数调整模糊度*/
+            /* box-shadow: 10px 10px 10px; */
+
+            /* 写四个参数  */
+            /* box-shadow: 10px 10px 10px blue; */
+
+            /* 写五个参数 40 调整阴影外延*/
+            /* box-shadow: 10px 10px 10px 40px gray; */
+
+            /* 写六个参数 inset 阴影向内衍生*/
+            /* box-shadow: 10px 10px 20px 40px yellowgreen inset; */
+        }
+
+        .box1:hover{
+            box-shadow: 10px 10px 20px 30px yellow inset;
+            transition: 1s linear all;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">hello</div>
+</body>
+</html>

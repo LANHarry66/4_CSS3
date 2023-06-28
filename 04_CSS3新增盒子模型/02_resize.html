@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box1{
+            background-color: orange;
+            width: 400px;
+            height: 400px;
+            /* 前提 */
+            overflow: auto;
+            /* 水平方向变化 */
+            /* resize: horizontal; */
+            /* 垂直方向变化 */
+            /* resize: vertical; */
+            /* 水平和垂直变化 */
+            resize: both;
+        }
+        .box2{
+            background-color:skyblue;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="box2"></div>
+    </div>
+</body>
+</html>

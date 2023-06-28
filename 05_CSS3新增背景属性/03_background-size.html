@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            width: 400px;
+            height: 400px;
+            border: 1px red solid;
+            background-image: url(../Aurora-4k.jpg);
+            /* 设置图片大小 */
+            /* background-size: 400px 400px; */
+
+            /* background-size: contain; */
+
+            /* 最优解 */
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">你好啊</div>
+</body>
+
+</html>
+<!-- contain将图片等比例缩放，使背景图宽或高与容器的宽或高相等，图片宽和高取大的作为基准，再将完整背景图片包含在容器内，要注意可能造成容器内部分区域没有背景图片 -->
+<!-- cover将背景图片等比例缩放，知道完全覆盖容器，图片会尽可能显示在容器上，背景图可能显示不完整 -->

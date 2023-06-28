@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box1{
+            background-color: skyblue;
+            width: 400px;
+            height: 400px;
+            margin: 0 auto;
+            font-size: 40px;
+            border: 10px black dashed;
+            padding: 50px;
+            /* 图片的起点默认是从padding-box左上角顶点开始的 */
+            background-image: url('../100.png');
+            /* 图片不重复 */
+            background-repeat: no-repeat;
+            /* 图片起源从padding-box左上角顶点开始,默认值 */
+            /* background-origin: padding-box; */
+
+            /* 图片起源从content-box左上角顶点开始 */
+            /* background-origin: content-box; */
+
+            /* 图片起源从border-box左上角顶点开始 */
+            /* background-origin: border-box; */
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">hello</div>
+</body>
+</html>

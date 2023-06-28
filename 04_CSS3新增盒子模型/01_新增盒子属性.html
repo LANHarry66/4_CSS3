@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box1{
+            background-color: skyblue;
+            width: 200px;
+            height: 200px;
+            padding: 10px;
+            border: 10px red solid;
+            margin-bottom: 20px;
+        }
+        .box2{
+            background-color: orange;
+            width: 200px;
+            height: 200px;
+            padding: 10px;
+            border: 10px red solid;
+            /* 盒子宽高仅限于content区 */
+            /* box-sizing: content-box; */
+
+            /* 盒子宽高包括了border */
+            box-sizing: border-box;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">盒子</div>
+    <div class="box2">盒子</div>
+</body>
+</html>
